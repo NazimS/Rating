@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, #ffd195, #90798c);
+}
+.rating-box {
+    position: relative;
+    background: #fff;
+    padding: 25px 50px 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 8px rgb(158, 99, 6);
+}
+.rating-box header {
+    font-size: 22px;
+    color: rgb(132, 128, 128);
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.rating-box .stars {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 20px;
+}
+.fa-star {
+    color: rgb(173, 172, 172);
+    font-size: 30px;
+    cursor: pointer;
+}
