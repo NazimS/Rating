@@ -8,14 +8,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(45deg, #ffd195, #90798c);
+    background: linear-gradient(45deg, #aa99b9, #8861a8);
 }
 .rating-box {
     position: relative;
     background: #fff;
     padding: 25px 50px 25px;
     border-radius: 20px;
-    box-shadow: 0 0 8px rgb(158, 99, 6);
+    box-shadow: 0 0 8px #ff9c1a;
 }
 .rating-box header {
     font-size: 22px;
