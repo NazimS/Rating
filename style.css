@@ -28,11 +28,14 @@ body {
 .rating-box .stars {
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
     gap: 20px;
+    transition: color 0.5s ease;
 }
 .fa-star {
     color: rgb(173, 172, 172);
     font-size: 30px;
     cursor: pointer;
+}
+.fa-star.active {
+    color: #ff9c1a;
 }
